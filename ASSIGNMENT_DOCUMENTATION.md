@@ -14,9 +14,9 @@
 > Set sharing to "Anyone with the link can view".
 > Test the link in incognito/private mode before submitting.
 
-**Video Link**: [Paste your personal Gmail Google Drive link here]
+**Video Link**: [https://drive.google.com/file/d/1OwnvIeFHAxF7bYRdLFb-Rg4kixZ4xShO/view?usp=drive_link]
 
-**Video filename**: `[YourStudentID]_Assignment3_Synchronization.mp4`
+**Video filename**: `[445050245]_Assignment3_Synchronization.mp4`
 
 **Verification**:
 - [ ] Link is accessible (tested in incognito mode)
@@ -32,41 +32,41 @@
 Document your development process with **minimum 3 entries** showing progression:
 
 ### Entry 1 - [Date, Time]
-**What I implemented**: 
+**What I implemented**: Implement locks and semaphore
 
-**Challenges encountered**: 
+**Challenges encountered**: using onelock for all variabls or separate Locks
 
-**How I solved it**: 
+**How I solved it**: i used separate locks 
 
-**Testing approach**: 
+**Testing approach**: I performed initial functional testing by running the simulation and verifying that the final "Processes Completed" count matched the number of threads created
 
-**Time spent**: 
+**Time spent**: 15 mins
 
 ---
 
 ### Entry 2 - [Date, Time]
-**What I implemented**: 
+**What I implemented**: Acquire and release CPU semaphore in run method
 
-**Challenges encountered**: 
+**Challenges encountered**: The main challenge was ensuring that the semaphore permit is always returned to the pool
 
-**How I solved it**: 
+**How I solved it**: I wrapped the process execution logic in a try , catch ,finally block. By placing the SharedResources.cpuSemaphore.release() call inside the finally block
 
-**Testing approach**: 
+**Testing approach**: I verified the implementation by checking the execution order in the terminal
 
-**Time spent**: 
+**Time spent**: 25 mins
 
 ---
 
 ### Entry 3 - [Date, Time]
-**What I implemented**: 
+**What I implemented**: Revise assignment documentation with student details and answers
 
-**Challenges encountered**: 
+**Challenges encountered**: The main challenge was descriping the logic behind my design decisions in a way that clearly demonstrated an understanding of operating system concepts
 
-**How I solved it**: 
+**How I solved it**: I reviewed the code to ensure my written answers accurately reflected the implementation.
 
-**Testing approach**: 
+**Testing approach**: I performed a final proofread of the ASSIGNMENT_DOCUMENTATION.md file to ensure all placeholders were removed and that the formatting was consistent and readable for the grading instructor.
 
-**Time spent**: 
+**Time spent**: 2 hours
 
 ---
 
